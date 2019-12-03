@@ -1,0 +1,56 @@
+<!--pages/set/set.wxml-->
+<view class='container'>
+  <form bindsubmit='comfirm' >
+        <view class='input-container'>
+           <label>_id：</label>
+           <input data-value='{{_id}}'    name ="_id" value='{{problem._id}}'></input>
+        </view>
+        <view class='input-container'>
+           <label>id：</label>
+           <input data-value='{{id}}'    name ="id" value='{{problem.id}}'></input>
+        </view>
+        <view class='input-container'>
+           <label>chapter：</label>
+           <input data-value='{{chapter}}'  name="cahpter" value='{{problem.chapter}}'></input>
+        </view>
+        <view class='input-container'>
+           <label>answer：</label>
+           <input data-value='{{answer}}'    name ="answer" value='{{problem.answer}}'></input>
+        </view>
+        <view class='input-container'>
+           <label>choice1:</label>
+           <input data-value='{{choice1}}'    name ="choice1" value='{{problem.choice1}}'></input>
+        </view>
+        <view class='input-container'>
+           <label>choice2:</label>
+           <input data-value='{{choice2}}'    name ="choice2" value='{{problem.choice2}}'></input>
+        </view>
+        <view class='input-container'>
+           <label>choice3:</label>
+           <input data-value='{{choice3}}'    name ="choice3" value='{{problem.choice3}}'></input>
+        </view>
+        <view class='input-container'>
+           <label>choice4:</label>
+           <input data-value='{{choice4}}'    name ="choice4" value='{{problem.choice4}}'></input>
+        </view>
+        <view class='input-container'>
+           <label>content:</label>
+           <input data-value='{{content}}'    name ="content" value='{{problem.content}}'></input>
+        </view>
+        <view class='input-container'>
+           <label>score:</label>
+           <input data-value='{{score}}'    name ="score" value='{{problem.score}}'></input>
+        </view>
+        <view class='input-container'>
+           <label>subject:</label>
+           <input data-value='{{subject}}'    name ="subject" value='{{problem.subject}}'></input>
+        </view>
+        <view class='input-container'>
+           <label>type:</label>
+           <input data-value='{{type}}'    name ="type" value='{{problem.type}}'></input>
+        </view>
+      <view class='comfirm'>
+           <button form-type='submit'>保存</button>
+      </view>
+  </form>
+</view>

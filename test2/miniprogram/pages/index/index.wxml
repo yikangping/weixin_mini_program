@@ -1,0 +1,20 @@
+<view wx:if="{{problem}}" class='container'>
+       <view class='title'>
+          <text>problem</text>
+       </view>
+</view>
+<view wx:else="{{problems}}" class='none'>
+      <text >暂时没有problem！</text>
+</view>
+<view class="add">
+    <button  bindtap="goSet1">添加</button>
+</view>
+<view class="del">
+    <button  bindtap="goSet">删除</button>
+</view>
+<view class="check">
+    <button  bindtap="goSet">查询</button>
+</view>
+<view class="change">
+    <button  bindtap="goSet">修改</button>
+</view>
